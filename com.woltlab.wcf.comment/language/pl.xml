@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.menu.wall"><![CDATA[Tablica]]></item>
+		<item name="wcf.user.profile.recentActivity.profileComment"><![CDATA[Napisał komentarz na tablicy <a href="{link controller='User' object=$user}{/link}#wcf_user_profile_menu_comment">{$user->username}'a</a>.]]></item>
+		<item name="wcf.user.profile.recentActivity.profileCommentResponse"><![CDATA[Dodał odpowiedź do komentarza <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}'a</a> na tablicy <a href="{link controller='User' object=$user}{/link}#wcf_user_profile_menu_comment">{$user->username}'a</a>.]]></item>
+	</category>
+
+	<category name="wcf.comment">
+		<item name="wcf.comment.response.previous"><![CDATA[Pokaż poprzednie odpowiedzi]]></item>
+		<item name="wcf.comment.response.recent"><![CDATA[Pokaż nowe odpowiedzi]]></item>
+		<item name="wcf.comment.add"><![CDATA[Napisz komentarz …]]></item>
+		<item name="wcf.comment.description"><![CDATA[Wciśnij Enter aby zapisać lub Esc aby anulować.]]></item>
+		<item name="wcf.comment.response.add"><![CDATA[Napisz odpowiedź …]]></item>	
+	</category>
+
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.comment.output"><![CDATA[Napisano nowy komentarz na <a href="{link controller='User' object=$__wcf->getUser()}#wall{/link}">twojej tablicy</a>.]]></item>
+		<item name="wcf.user.notification.comment.shortOutput"><![CDATA[Nowy komentarz (tablica)]]></item>
+		<item name="wcf.user.notification.commentResponse.output"><![CDATA[Odpowiedziano na twój komentarz na tablicy <a href="{link controller='User' object=$owner}#wall{/link}">{$owner->username}'a</a>.]]></item>
+		<item name="wcf.user.notification.commentResponse.shortOutput"><![CDATA[Nowa odpowiedź (tablica)]]></item>
+		<item name="wcf.user.notification.commentResponseOwner.output"><![CDATA[{$commentAuthor->username} dodał odpowiedź do komentarza a <a href="{link controller='User' object=$__wcf->getUser()}#wall{/link}">twojej tablicy</a>.]]></item>
+		<item name="wcf.user.notification.commentResponseOwner.shortOutput"><![CDATA[Nowa odpowiedź (tablica)]]></item>
+	</category>
+</language>
