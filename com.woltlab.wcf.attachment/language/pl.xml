@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.attachment">
+		<item name="wcf.attachment.file.info"><![CDATA[({@$attachment->filesize|filesize}, pobrano <b>{#$attachment->downloads}</b> razy{if $attachment->downloads > 0}, ostatnio: {@$attachment->lastDownloadTime|time}{/if})]]></item>
+		<item name="wcf.attachment.image.info"><![CDATA[{@$attachment->filesize|filesize}, {#$attachment->width}x{#$attachment->height}, {#$attachment->downloads} Pobrań]]></item>
+		<item name="wcf.attachment.files"><![CDATA[Pliki]]></item>
+		<item name="wcf.attachment.images"><![CDATA[Zdjęcia]]></item>
+		<item name="wcf.attachment.attachments"><![CDATA[Załączniki]]></item>
+		<item name="wcf.attachment.delete.sure"><![CDATA[Czy na pewno chcesz usunąć ten załącznik?]]></item>
+		<item name="wcf.attachment.upload.error.invalidExtension"><![CDATA[Ten plik ma nieprawidłowe rozszerzenie.]]></item>
+		<item name="wcf.attachment.upload.error.tooLarge"><![CDATA[Ten plik jest za duży.]]></item>
+		<item name="wcf.attachment.upload.error.uploadFailed"><![CDATA[Wystąpił błąd podczas wysyłania pliku.]]></item>
+		<item name="wcf.attachment.upload.limits"><![CDATA[Maksymalna liczba załączników: {#$attachmentHandler->getMaxCount()}<br />
+Maksmylany rozmiar pliku: {@$attachmentHandler->getMaxSize()|filesize}<br />
+Dozwolone rozszerzenia: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]></item>
+	</category>
+</language>
