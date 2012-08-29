@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.content.label.canAddLabel"><![CDATA[Można dodać nowe etykiety]]></item>
+		<item name="wcf.acp.group.option.admin.content.label.canAddLabelGroup"><![CDATA[Może dodawać nowe grupy etykiet]]></item>
+		<item name="wcf.acp.group.option.admin.content.label.canDeleteLabel"><![CDATA[Może usuwać etykiety]]></item>
+		<item name="wcf.acp.group.option.admin.content.label.canDeleteLabelGroup"><![CDATA[Może usuwać grupy etykiet]]></item>
+		<item name="wcf.acp.group.option.admin.content.label.canEditLabel"><![CDATA[Może edytować eykiety]]></item>
+		<item name="wcf.acp.group.option.admin.content.label.canEditLabelGroup"><![CDATA[Może edytować grupy etykiet]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.label"><![CDATA[Etykiety]]></item>
+	</category>
+
+	<category name="wcf.acp.label">
+		<item name="wcf.acp.label.add"><![CDATA[Dodaj etykietę]]></item>
+		<item name="wcf.acp.label.cssClassName"><![CDATA[Klasa CSS]]></item>
+		<item name="wcf.acp.label.data"><![CDATA[Główne informacje]]></item>
+		<item name="wcf.acp.label.defaultValue"><![CDATA[Etykieta]]></item>
+		<item name="wcf.acp.label.error.noGroups"><![CDATA[Przed dodaniem etykiety, musisz <a href="{link controller='LabelGroupAdd'}{/link}">utworzyć grupę dla etykiety</a>.]]></item>
+		<item name="wcf.acp.label.group"><![CDATA[Grupy etykiet]]></item>
+		<item name="wcf.acp.label.group.add"><![CDATA[Dodaj grupę]]></item>
+		<item name="wcf.acp.label.group.data"><![CDATA[Główne informacje o grupach]]></item>
+		<item name="wcf.acp.label.group.groupName"><![CDATA[Nazwa grupy]]></item>
+		<item name="wcf.acp.label.group.list"><![CDATA[Grupy etykiet]]></item>
+		<item name="wcf.acp.label.group.noneAvailable"><![CDATA[Obecnie nie została dodana żadna grupa etykiet.]]></item>
+		<item name="wcf.acp.label.label"><![CDATA[Etykieta]]></item>
+		<item name="wcf.acp.label.list"><![CDATA[Etykiety]]></item>
+		<item name="wcf.acp.label.noneAvailable"><![CDATA[Obecnie nie została dodana żadna etykieta.]]></item>
+	</category>
+
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.label"><![CDATA[Etykiety]]></item>
+		<item name="wcf.acp.menu.link.label.list"><![CDATA[Lista etykiet]]></item>
+		<item name="wcf.acp.menu.link.label.add"><![CDATA[Dodaj etykietę]]></item>
+		<item name="wcf.acp.menu.link.label.group.list"><![CDATA[Lista grup etykiet]]></item>
+		<item name="wcf.acp.menu.link.label.group.add"><![CDATA[Dodaj grupę etykiety]]></item>
+	</category>
+</language>
+<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->

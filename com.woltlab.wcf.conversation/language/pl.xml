@@ -3,7 +3,7 @@
 	<category name="wcf.clipboard">
 		<item name="wcf.clipboard.label.conversation.marked"><![CDATA[Wybrano {if $count == 1}jedną konwersację{else}{#$count} konwersacji{/if}]]></item>
 	</category>
-	<!-- ok -->
+
 	<category name="wcf.clipboard.item">
 		<item name="wcf.clipboard.item.conversation.assignLabel"><![CDATA[Przypisz etykietę ({#$count})]]></item>
 		<item name="wcf.clipboard.item.conversation.close"><![CDATA[Zamknij ({#$count})]]></item>
@@ -47,14 +47,14 @@
 		<item name="wcf.conversation.showAll"><![CDATA[Pokaż wszystkie konwersacje]]></item>
 		<item name="wcf.conversation.lastVisitTime"><![CDATA[Ostatnia wizyta]]></item>
 	</category>
-	<!-- ok -->
+
 	<category name="wcf.conversation.edit">
 		<item name="wcf.conversation.edit.assignLabel"><![CDATA[Przypisz etykietę]]></item>
 		<item name="wcf.conversation.edit.close"><![CDATA[Zamknij]]></item>
 		<item name="wcf.conversation.edit.leave"><![CDATA[Zmień uczestnika]]></item>
 		<item name="wcf.conversation.edit.open"><![CDATA[Otwórz]]></item>
 	</category>
-	<!-- ok -->
+
 	<category name="wcf.conversation.label">
 		<item name="wcf.conversation.label"><![CDATA[Filtruj według etykiety]]></item>
 		<item name="wcf.conversation.label.cssClassName"><![CDATA[Kolor]]></item>
@@ -70,7 +70,7 @@
 		<item name="wcf.conversation.label.management.existingLabels"><![CDATA[Istniejące etykiety]]></item>
 		<item name="wcf.conversation.label.placeholder"><![CDATA[Etykieta]]></item>
 	</category>
-	<!-- ok -->
+
 	<category name="wcf.user.notification">
 		<item name="wcf.user.notification.conversation.output"><![CDATA[Rozpoczął konwersację &ldquo;<a href="{link controller='Conversation' object=$conversation}{/link}">{$conversation->subject}</a>&rdquo;.]]></item>
 		<item name="wcf.user.notification.conversation.shortOutput"><![CDATA[Nowa konwersacja]]></item>
@@ -78,3 +78,4 @@
 		<item name="wcf.user.notification.conversation.message.shortOutput"><![CDATA[Nowa odpowiedź do konwersacji]]></item>		
 	</category>
 </language>
+<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->

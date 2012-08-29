@@ -4,16 +4,19 @@
 		<item name="wcf.acp.option.module_tagging"><![CDATA[Tagowanie]]></item>
 		<item name="wcf.acp.option.module_tagging.description"><![CDATA[Aktywuje funkcję tagowania w zawartości.]]></item>
 	</category>
+	
 	<category name="wcf.acp.package">
 		<item name="wcf.acp.package.step.install.TaggablePip"><![CDATA[Instalacja tagowania ...]]></item>
 		<item name="wcf.acp.package.step.uninstall.TaggablePip"><![CDATA[Odinstalowywanie tagowania ...]]></item>
 		<item name="wcf.acp.package.step.update.TaggablePip"><![CDATA[Aktualizacja tagowania ...]]></item>
 	</category>
+	
 	<category name="wcf.help.item">
 		<item name="wcf.help.item.tagging"><![CDATA[Tagi]]></item>
 		<item name="wcf.help.item.tagging.description"><![CDATA[<p class="helpImage border container-4"><img src="{@RELATIVE_WCF_DIR}images/help/helpTagging1.png" alt="" /><span class="smallFont light">Tag cloud</span></p>
 <p>Tagi to słowa, które opisują i/lub kategoryzują elementy, takie jak obrazy czy posty. Potraktujcie to jako swego rodzaju podsumowanie treści. Zaletą jest to, że możesz wyszukiwać zawartość według <a href="index.php?page=TaggedObjects{@SID_ARG_2ND}">tagów</a>, więc nie musisz wymyślać słów kluczowych.<p>]]></item>
 	</category>
+	
 	<category name="wcf.tagging">
 		<item name="wcf.tagging.filter"><![CDATA[Sortuj wg tagów{if $tag|isset}: &quot;{$tag}&quot;{/if}]]></item>
 		<item name="wcf.tagging.tags"><![CDATA[Tagi]]></item>
@@ -22,3 +25,4 @@
 		<item name="wcf.tagging.tags.used"><![CDATA[Użyte tagi]]></item>
 	</category>
 </language>
+<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
