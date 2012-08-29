@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.clipboard">
+		<item name="wcf.clipboard.label.conversation.marked"><![CDATA[Wybrano {if $count == 1}jedną konwersację{else}{#$count} konwersacji{/if}]]></item>
+	</category>
+	<!-- ok -->
+	<category name="wcf.clipboard.item">
+		<item name="wcf.clipboard.item.conversation.assignLabel"><![CDATA[Przypisz etykietę ({#$count})]]></item>
+		<item name="wcf.clipboard.item.conversation.close"><![CDATA[Zamknij ({#$count})]]></item>
+		<item name="wcf.clipboard.item.conversation.leave"><![CDATA[Ukryj ({#$count})]]></item>
+		<item name="wcf.clipboard.item.conversation.leavePermanently"><![CDATA[Opuść ({#$count})]]></item>
+		<item name="wcf.clipboard.item.conversation.open"><![CDATA[Otwórz ({#$count})]]></item>
+		<item name="wcf.clipboard.item.conversation.restore"><![CDATA[Przywróć ({#$count})]]></item>
+	</category>
+
+	<category name="wcf.conversation">
+		<item name="wcf.conversation.conversations"><![CDATA[Konwersacje]]></item>
+		<item name="wcf.conversation.subject"><![CDATA[Temat]]></item>
+		<item name="wcf.conversation.replies"><![CDATA[Odpowiedzi]]></item>
+		<item name="wcf.conversation.participants"><![CDATA[Uczestnicy]]></item>
+		<item name="wcf.conversation.lastPostTime"><![CDATA[Ostatnia odpowiedź]]></item>
+		<item name="wcf.conversation.message.new"><![CDATA[Nowa]]></item>
+		<item name="wcf.conversation.add"><![CDATA[Stwórz nową konwersację]]></item>
+		<item name="wcf.conversation.button.add"><![CDATA[Nowa konwersacja]]></item>
+		<item name="wcf.conversation.message.add"><![CDATA[Dodaj odpowiedź do konwersacji]]></item>
+		<item name="wcf.conversation.message.button.add"><![CDATA[Odpowiedz]]></item>
+		<item name="wcf.conversation.folders"><![CDATA[Folder]]></item>
+		<item name="wcf.conversation.folder.draft"><![CDATA[Drafts]]></item>
+		<item name="wcf.conversation.folder.outbox"><![CDATA[Wyślij elementy]]></item>
+		<item name="wcf.conversation.folder.hidden"><![CDATA[Ukryty]]></item>
+		<item name="wcf.conversation.quota"><![CDATA[Quota]]></item>
+		<item name="wcf.conversation.noConversations"><![CDATA[Obecnie nie ma żadnych konwersacji.]]></item>
+		<item name="wcf.conversation.hideConversation"><![CDATA[Zmień uczestnika]]></item>
+		<item name="wcf.conversation.hideConversation.leave"><![CDATA[Ukryj konwersację]]></item>
+		<item name="wcf.conversation.hideConversation.leave.description"><![CDATA[Konwersacja zostanie ukryte dopóki jeden z uczestników nie napisze nowej odpowiedzi.]]></item>
+		<item name="wcf.conversation.hideConversation.leavePermanently"><![CDATA[Opuść konwersację]]></item>
+		<item name="wcf.conversation.hideConversation.leavePermanently.description"><![CDATA[Całkowicie opuścisz konwersację.]]></item>
+		<item name="wcf.conversation.hideConversation.restore"><![CDATA[Przywróć konwersację]]></item>
+		<item name="wcf.conversation.leave.title"><![CDATA[Zmień uczestnika]]></item>
+		<item name="wcf.conversation.information"><![CDATA[Informacje]]></item>
+		<item name="wcf.conversation.message"><![CDATA[Wiadomość]]></item>
+		<item name="wcf.conversation.invisibleParticipants"><![CDATA[Ukryci uczestnicy]]></item>
+		<item name="wcf.conversation.participants.description"><![CDATA[Oddzielaj nazwy przecinkami.]]></item>
+		<item name="wcf.conversation.button.saveAsDraft"><![CDATA[Zapisz jako wersję roboczą]]></item>
+		<item name="wcf.conversation.message.add.previousPosts"><![CDATA[Prywatne wiadomości: ({#$items})}]]></item>
+		<item name="wcf.conversation.invisibleParticipants.description"><![CDATA[Ukryci uczestnicy nie są widoczne dla innych uczestników rozmowy. Oddzielaj nazwy przecinkami.]]></item>
+		<item name="wcf.conversation.showAll"><![CDATA[Pokaż wszystkie konwersacje]]></item>
+		<item name="wcf.conversation.lastVisitTime"><![CDATA[Ostatnia wizyta]]></item>
+	</category>
+	<!-- ok -->
+	<category name="wcf.conversation.edit">
+		<item name="wcf.conversation.edit.assignLabel"><![CDATA[Przypisz etykietę]]></item>
+		<item name="wcf.conversation.edit.close"><![CDATA[Zamknij]]></item>
+		<item name="wcf.conversation.edit.leave"><![CDATA[Zmień uczestnika]]></item>
+		<item name="wcf.conversation.edit.open"><![CDATA[Otwórz]]></item>
+	</category>
+	<!-- ok -->
+	<category name="wcf.conversation.label">
+		<item name="wcf.conversation.label"><![CDATA[Filtruj według etykiety]]></item>
+		<item name="wcf.conversation.label.cssClassName"><![CDATA[Kolor]]></item>
+		<item name="wcf.conversation.label.disableFilter"><![CDATA[Bez filtru]]></item>
+		<item name="wcf.conversation.label.filter"><![CDATA[Wybierz etykietę]]></item>
+		<item name="wcf.conversation.label.labelName"><![CDATA[Nazwa]]></item>
+		<item name="wcf.conversation.label.management"><![CDATA[Edytuj etykiety]]></item>
+		<item name="wcf.conversation.label.management.addLabel"><![CDATA[Dodaj nową etykietę]]></item>
+		<item name="wcf.conversation.label.management.addLabel.success"><![CDATA[Etykieta została pomyślnie zapisana.]]></item>
+		<item name="wcf.conversation.label.management.deleteLabel"><![CDATA[Usuń etykietę]]></item>
+		<item name="wcf.conversation.label.management.edit.description"><![CDATA[Kliknij na etykietę, aby ją edytować lub usunąć.]]></item>
+		<item name="wcf.conversation.label.management.editLabel"><![CDATA[Edytuj etykietę &ldquo;#labelName#&rdquo;]]></item>
+		<item name="wcf.conversation.label.management.existingLabels"><![CDATA[Istniejące etykiety]]></item>
+		<item name="wcf.conversation.label.placeholder"><![CDATA[Etykieta]]></item>
+	</category>
+	<!-- ok -->
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.conversation.output"><![CDATA[Rozpoczął konwersację &ldquo;<a href="{link controller='Conversation' object=$conversation}{/link}">{$conversation->subject}</a>&rdquo;.]]></item>
+		<item name="wcf.user.notification.conversation.shortOutput"><![CDATA[Nowa konwersacja]]></item>
+		<item name="wcf.user.notification.conversation.message.output"><![CDATA[Odpowiedział na konwersację &ldquo;<a href="{link controller='Conversation' object=$message->getConversation()}messageID={@$message->messageID}{/link}#message{@$message->messageID}">{$message->getTitle()}</a>&rdquo;.]]></item>
+		<item name="wcf.user.notification.conversation.message.shortOutput"><![CDATA[Nowa odpowiedź do konwersacji]]></item>		
+	</category>
+</language>

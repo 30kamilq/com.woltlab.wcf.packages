@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.like">
+		<item name="wcf.like.cumulativeLikes"><![CDATA[Podziękowania]]></item>
+		<item name="wcf.like.tooltip"><![CDATA[{if $likes}{#$likes} Lubianych{if $dislikes}, {/if}{/if}{if $dislikes}{#$dislikes} Nielubianych{/if}]]></item>
+		<item name="wcf.like.jsTooltip"><![CDATA[($likes > 0 ? ($likes + " Lubianych" + ($dislikes > 0 ? ", " : "")) : "") + ($dislikes > 0 ? ($dislikes + " Nielubianych") : "")]]></item>
+		<item name="wcf.like.button.like"><![CDATA[Lubię to]]></item>
+		<item name="wcf.like.button.dislike"><![CDATA[Nie lubię tego]]></item>
+		<item name="wcf.like.likesReceived"><![CDATA[Otrzymanych podziękowań]]></item>
+		<item name="wcf.like.summary"><![CDATA[$userArray.join(", ") + ($others > 0 ? (" i " + $others + " innych") : "") + " podziękowało."]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_like"><![CDATA[Aktywuj system podziękowań]]></item>
+	</category>
+</language>

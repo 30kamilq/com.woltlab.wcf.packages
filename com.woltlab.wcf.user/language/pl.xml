@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.community"><![CDATA[Społeczność]]></item>
+	</category>
+
+	<category name="wcf.user">
+		<item name="wcf.user.access.everyone"><![CDATA[Wszystkich]]></item>
+		<item name="wcf.user.access.following"><![CDATA[Użytkowników których obserwuję]]></item>
+		<item name="wcf.user.access.nobody"><![CDATA[Nikogo]]></item>
+		<item name="wcf.user.access.registered"><![CDATA[Zarejestrowanych użytkowników]]></item>
+		<item name="wcf.user.avatar.alt"><![CDATA[Awatar użytkownika]]></item>
+		<item name="wcf.user.button.login"><![CDATA[Logowanie]]></item>
+		<item name="wcf.user.button.register"><![CDATA[Rejestracja]]></item>
+		<item name="wcf.user.login.action"><![CDATA[Posiadasz konto?]]></item>
+		<item name="wcf.user.login.action.login"><![CDATA[Tak, moje hasło to:]]></item>
+		<item name="wcf.user.login.action.register"><![CDATA[Nie, jestem nowym użytkownikiem.]]></item>
+		<item name="wcf.user.loginOrRegister"><![CDATA[Logowanie{if !REGISTER_DISABLED} lub rejestracja{/if}]]></item>
+		<item name="wcf.user.menu.community"><![CDATA[Społeczność]]></item>
+		<item name="wcf.user.menu.community.notification"><![CDATA[Powiadomienia]]></item>
+		<item name="wcf.user.menu.community.followedUsers"><![CDATA[Śledzeni użytkownicy]]></item>
+		<item name="wcf.user.menu.community.ignoredUsers"><![CDATA[Ignorowani użytkownicy]]></item>
+		<item name="wcf.user.menu.profile"><![CDATA[Profil]]></item>
+		<item name="wcf.user.menu.profile.accountManagement"><![CDATA[Zarządzanie]]></item>
+		<item name="wcf.user.menu.profile.avatar"><![CDATA[Awatar]]></item>
+		<item name="wcf.user.menu.profile.signature"><![CDATA[Sygnatura]]></item>
+		<item name="wcf.user.menu.settings"><![CDATA[Ustawienia]]></item>
+		<item name="wcf.user.menu.settings.notification"><![CDATA[Powiadomienia]]></item>
+		<item name="wcf.user.useCookies"><![CDATA[Pozostań zalogowany]]></item>
+		<item name="wcf.user.usernameOrEmail"><![CDATA[Nick lub adres e-mail]]></item>
+		<item name="wcf.user.gender.male"><![CDATA[Kobieta]]></item>
+		<item name="wcf.user.gender.female"><![CDATA[Mężczyzna]]></item>
+		<item name="wcf.user.members"><![CDATA[Użytkownicy]]></item>
+		<item name="wcf.user.recentActivity"><![CDATA[Ostatnia aktywność]]></item>
+		<item name="wcf.user.usersOnline"><![CDATA[Użytkownicy online]]></item>
+		<item name="wcf.user.usersOnline.detail"><![CDATA[
+{if $usersOnlineList->stats[members] > 0}
+	{#$usersOnlineList->stats[members]} użytkownik{if $usersOnlineList->stats[members] != 1}ów{/if}
+{/if}
+{if $usersOnlineList->stats[invisible] > 0}
+	({#$usersOnlineList->stats[invisible]} jest niewidocznych)
+{/if}
+{if $usersOnlineList->stats[guests] > 0 && $usersOnlineList->stats[members] > 0} i {/if}
+{if $usersOnlineList->stats[guests] > 0}
+	{#$usersOnlineList->stats[guests]} gości
+{/if}]]></item>
+		<item name="wcf.user.membersList.registrationDate"><![CDATA[Data rejestracji {@$user->registrationDate|date}]]></item>
+		<item name="wcf.user.membersList.location"><![CDATA[z {$user->location}]]></item>
+		<item name="wcf.user.myProfile"><![CDATA[Mój profil]]></item>
+		<item name="wcf.user.editProfile"><![CDATA[Edytuj profil]]></item>
+		<item name="wcf.user.profileHits"><![CDATA[Odwiedzin profilu]]></item>
+		<item name="wcf.user.profileHits.hitsPerDay"><![CDATA[{#$user->profileHits/$user->getProfileAge()} odwiedzin dziennie]]></item>
+		<item name="wcf.user.online"><![CDATA[Online]]></item>
+		<item name="wcf.user.online.title"><![CDATA[&quot;{$username}&quot; est online]]></item>
+		<item name="wcf.user.button.follow"><![CDATA[Śledź]]></item>
+		<item name="wcf.user.button.unfollow"><![CDATA[Nie śledź]]></item>
+		<item name="wcf.user.button.ignore"><![CDATA[Zablokuj]]></item>
+		<item name="wcf.user.button.unignore"><![CDATA[Odblokuj]]></item>
+		<item name="wcf.user.style"><![CDATA[Styl]]></item>
+		<item name="wcf.user.style.description"><![CDATA[Styl użytkownika]]></item>
+		<item name="wcf.user.register"><![CDATA[Rejestracja]]></item>
+		<item name="wcf.user.username.description"><![CDATA[Nazwa użytkownika musi zawierać co najmniej {REGISTER_USERNAME_MIN_LENGTH} znaków i maksymalnie {REGISTER_USERNAME_MAX_LENGTH} znaków.]]></item>
+		<item name="wcf.user.password.description"><![CDATA[{if REGISTER_ENABLE_PASSWORD_SECURITY_CHECK && REGISTER_PASSWORD_MIN_LENGTH}Hasło musi zawierać {REGISTER_PASSWORD_MIN_LENGTH} znaków.{else}Bezpieczne hasło powinno zawierać co najmniej 8 znaków.{/if}]]></item>
+		<item name="wcf.user.lostPassword"><![CDATA[Zapomniałem hasło]]></item>
+		<item name="wcf.user.lostPassword.description"><![CDATA[Wypełnij jedno z poniższych pól.]]></item>
+		<item name="wcf.user.lostPassword.email.error.notFound"><![CDATA[Nie znaleziono użytkownika z podanym adresem e-mail: &ldquo;{$email}&rdquo;]]></item>
+		<item name="wcf.user.lostPassword.error.tooManyRequests"><![CDATA[Wysyłałeś już w ciągu ostatnih 24h prośbę o zmianę hasła. Ze względów bezpieczeństwa możesz prosić o przypomnienie hasła raz dziennie. Możesz ponownie poprosić o hasło do tego konta za {#$hours} godzin(ę).]]></item>
+		<item name="wcf.user.lostPassword.mail.subject"><![CDATA[Zapomniałeś hasło na {@PAGE_TITLE|language}]]></item>
+		<item name="wcf.user.lostPassword.mail"><![CDATA[Witaj {@$username},
+
+Jeśli nie pamiętasz swojego hasła możesz poprosić o nowe.
+Proszę kliknąć w poniższy link, aby poprosić o nowe hasło: {@PAGE_URL}/index.php/NewPassword/?u={@$userID}&k={@$key}
+
+Można zignorować ten e-mail, jeśli nie prosiłeś o zmianę hasła.
+
+Miłego dnia,
+Team {@PAGE_TITLE|language}]]></item>
+		<item name="wcf.user.lostPassword.mail.sent"><![CDATA[Za chwilę otrzymasz e-maila z dalszymi wskazówkami.]]></item>
+		<item name="wcf.user.newPassword"><![CDATA[Poproś o nowe hasło]]></item>
+		<item name="wcf.user.lostPasswordKey"><![CDATA[Klucz bezpieczeństwa]]></item>
+		<item name="wcf.user.lostPasswordKey.error.invalid"><![CDATA[Podałeś nieprawidłowy klucz bezpieczeństwa.]]></item>
+		<item name="wcf.user.userID.error.invalid"><![CDATA[Podałeś nieprawidłowy ID użytkownika.]]></item>
+		<item name="wcf.user.newPassword.mail"><![CDATA[Witaj {@$username},
+
+twoje nowe hasło na stronie "{@PAGE_TITLE|language}":
+{@$newPassword}
+
+Można zmienić swoje hasło w dowolnej chwili:
+{@PAGE_URL}/index.php/AccountManagement/
+
+
+Miłego dnia,
+Team {@PAGE_TITLE|language}]]></item>
+		<item name="wcf.user.newPassword.mail.subject"><![CDATA[Nowe hasło na stronie: {@PAGE_TITLE|language}]]></item>
+		<item name="wcf.user.newPassword.success"><![CDATA[Wkrótce otrzymasz e-mail z owym hasłem.]]></item>
+		<item name="wcf.user.accountManagement"><![CDATA[Zarządzanie kontem]]></item>
+		<item name="wcf.user.accountManagement.warning"><![CDATA[Edytujesz własne konto użytkownika. Niektóre ustawienia mogą zablokować dostęp do twojego konta. Proszę być ostrożnym!]]></item>
+		<item name="wcf.user.accountManagement.password.description"><![CDATA[Proszę wprowadzić swoje hasło dla potwierdzenia!]]></item>
+		<item name="wcf.user.newPassword"><![CDATA[Nowe hasło]]></item>
+		<item name="wcf.user.changeUsername"><![CDATA[Zmień nazwę użytkownika]]></item>
+		<item name="wcf.user.changeUsername.description"><![CDATA[Możesz zmienić swoją nazwę użytkownika tylko raz na {$renamePeriod} dni.]]></item>
+		<item name="wcf.user.changePassword"><![CDATA[Zmień hasło]]></item>
+		<item name="wcf.user.changeEmail"><![CDATA[Zmień adres e-mail]]></item>
+		<item name="wcf.user.newEmail"><![CDATA[Nowy adres e-mail]]></item>
+		<item name="wcf.user.newUsername"><![CDATA[Nowy nick]]></item>
+		<item name="wcf.user.quit.sure"><![CDATA[Czy na pewno chcesz trwale usunąć swoje konto i wszystkie dane osobowe?]]></item>
+		<item name="wcf.user.quit.cancel"><![CDATA[Twoje konto zostanie usunięte za {$quitStarted+7*86400|date}. Włącz tę opcję, jeśli chcesz anulować usunięcie.]]></item>
+		<item name="wcf.user.quit.description"><![CDATA[Uwaga: Ta czynność nie powoduje usunięcia wiadomości, załączników i inne treści utworzonych przez użytkowników.]]></item>
+		<item name="wcf.user.quit"><![CDATA[Zamknij konto]]></item>
+		<item name="wcf.user.emailActivation"><![CDATA[Aktywuj nowy adres e-mail]]></item>
+	</category>
+
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.com.woltlab.wcf.notification.notificationType.mail"><![CDATA[E-mail]]></item>
+		<item name="wcf.user.notification.count"><![CDATA[if (data.returnValues.count == 0) { "Brak powiadomień" } else if (data.returnValues.count == 1) { "Jedno powiadomienie" } else { data.returnValues.count + " powiadomień" }]]></item>
+		<item name="wcf.user.notification.follow.output"><![CDATA[<a href="{link controller='User' object=$author}{/link}">{$author->username}</a> follows you.]]></item>
+		<item name="wcf.user.notification.follow.shortOutput"><![CDATA[Nowy obserwator]]></item>
+		<item name="wcf.user.notification.noNotifications"><![CDATA[Brak nowych powiadomień]]></item>
+		<item name="wcf.user.notification.notifications"><![CDATA[Powiadomienia]]></item>
+	</category>
+
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile"><![CDATA[Profil &ldquo;{$user->username}&rdquo;'a]]></item>
+		<item name="wcf.user.profile.menu.about"><![CDATA[O mnie]]></item>
+		<item name="wcf.user.profile.menu.recentActivity"><![CDATA[Ostatnia aktywność]]></item>
+		<item name="wcf.user.profile.following"><![CDATA[Obserwowani]]></item>
+		<item name="wcf.user.profile.following.all"><![CDATA[Pokaż wszystkich obserwowanych]]></item>
+		<item name="wcf.user.profile.followers"><![CDATA[Obserwatorzy]]></item>
+		<item name="wcf.user.profile.followers.all"><![CDATA[Pokaż wszystkich obserwatorów]]></item>
+		<item name="wcf.user.profile.recentActivity.follow"><![CDATA[Nowi obserwujący <a href="{link controller='User' object=$user}{/link}">{$user->username}</a>.]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.aboutMe"><![CDATA[O mnie]]></item>
+		<item name="wcf.user.option.category.profile.aboutMe"><![CDATA[O mnie]]></item>
+		<item name="wcf.user.option.category.profile.contact"><![CDATA[Kontakt]]></item>
+		<item name="wcf.user.option.category.profile.personal"><![CDATA[Informacje osobowe]]></item>
+		<item name="wcf.user.option.gender"><![CDATA[Płeć]]></item>
+		<item name="wcf.user.option.hobbies"><![CDATA[Hobby]]></item>
+		<item name="wcf.user.option.homepage"><![CDATA[Strona internetowa]]></item>
+		<item name="wcf.user.option.location"><![CDATA[Miejsce zamieszkania]]></item>
+		<item name="wcf.user.option.occupation"><![CDATA[Zawód]]></item>
+		<item name="wcf.user.option.birthday"><![CDATA[Urodziny]]></item>
+		<item name="wcf.user.option.timezone"><![CDATA[Strefa czasowa]]></item>
+		<item name="wcf.user.option.showSignature"><![CDATA[Pokazuj sygnatury innych użytkowników]]></item>
+		<item name="wcf.user.option.category.settings.general"><![CDATA[Główne]]></item>
+		<item name="wcf.user.option.category.settings.general.interface"><![CDATA[Interfejs]]></item>
+		<item name="wcf.user.option.category.settings.privacy"><![CDATA[Prywatność]]></item>
+		<item name="wcf.user.option.category.settings.general.date"><![CDATA[Data &amp; Czas]]></item>
+	</category>
+</language>
+<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
