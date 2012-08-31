@@ -45,6 +45,7 @@
 	{#$usersOnlineList->stats[guests]} gości
 {/if}]]></item>
 		<item name="wcf.user.usersOnline.invisible"><![CDATA[ (Niewidoczny)]]></item>
+		<item name="wcf.user.usersOnline.marking.legend"><![CDATA[Legenda]]></item>
 		<item name="wcf.user.membersList.registrationDate"><![CDATA[Data rejestracji {@$user->registrationDate|date}]]></item>
 		<item name="wcf.user.membersList.location"><![CDATA[z {$user->location}]]></item>
 		<item name="wcf.user.myProfile"><![CDATA[Mój profil]]></item>
