@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.message.quote">
+		<item name="wcf.message.quote.deleteSelectedQuotes"><![CDATA[Usuñ wybrane cytaty]]></item>
+		<item name="wcf.message.quote.insertQuote"><![CDATA[Wstaw cytat]]></item>
+		<item name="wcf.message.quote.manageQuotes"><![CDATA[Zarz¹dzaj cytatami]]></item>
+		<item name="wcf.message.quote.quoteSelected"><![CDATA[Wybierz cytat]]></item>
+		<item name="wcf.message.quote.showQuotes"><![CDATA[(#count#)cytaty]]></item>
+	</category>
+</language>
