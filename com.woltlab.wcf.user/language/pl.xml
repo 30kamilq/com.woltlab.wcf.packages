@@ -46,6 +46,10 @@
 {/if}]]></item>
 		<item name="wcf.user.usersOnline.invisible"><![CDATA[ (Niewidoczny)]]></item>
 		<item name="wcf.user.usersOnline.marking.legend"><![CDATA[Legenda]]></item>
+		<item name="wcf.user.usersOnline.guests"><![CDATA[Goście]]></item>
+		<item name="wcf.user.usersOnline.location"><![CDATA[Lokalizacja]]></item>
+		<item name="wcf.user.usersOnline.ipAddress"><![CDATA[Adres IP]]></item>
+		<item name="wcf.user.usersOnline.userAgent"><![CDATA[Przeglądarka]]></item>
 		<item name="wcf.user.membersList.registrationDate"><![CDATA[Data rejestracji {@$user->registrationDate|date}]]></item>
 		<item name="wcf.user.membersList.location"><![CDATA[z {$user->location}]]></item>
 		<item name="wcf.user.myProfile"><![CDATA[Mój profil]]></item>
@@ -110,6 +114,7 @@ Team {@PAGE_TITLE|language}]]></item>
 		<item name="wcf.user.quit.description"><![CDATA[Uwaga: Ta czynność nie powoduje usunięcia wiadomości, załączników i inne treści utworzonych przez użytkowników.]]></item>
 		<item name="wcf.user.quit"><![CDATA[Zamknij konto]]></item>
 		<item name="wcf.user.emailActivation"><![CDATA[Aktywuj nowy adres e-mail]]></item>
+		<item name="wcf.user.guest"><![CDATA[Gość]]></item>
 	</category>
 
 	<category name="wcf.user.notification">
