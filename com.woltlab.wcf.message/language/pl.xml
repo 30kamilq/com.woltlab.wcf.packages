@@ -5,6 +5,6 @@
 		<item name="wcf.message.quote.insertQuote"><![CDATA[Wstaw cytat]]></item>
 		<item name="wcf.message.quote.manageQuotes"><![CDATA[Zarządzaj cytatami]]></item>
 		<item name="wcf.message.quote.quoteSelected"><![CDATA[Wybierz cytat]]></item>
-		<item name="wcf.message.quote.showQuotes"><![CDATA[(#count#)cytaty]]></item>
+		<item name="wcf.message.quote.showQuotes"><![CDATA[(#count#) cytaty]]></item>
 	</category>
 </language>
