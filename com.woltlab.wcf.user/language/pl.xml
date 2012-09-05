@@ -50,6 +50,7 @@
 		<item name="wcf.user.usersOnline.location"><![CDATA[Lokalizacja]]></item>
 		<item name="wcf.user.usersOnline.ipAddress"><![CDATA[Adres IP]]></item>
 		<item name="wcf.user.usersOnline.userAgent"><![CDATA[Przeglądarka]]></item>
+		<item name="wcf.user.usersOnline.lastActivity"><![CDATA[Ostatnia aktywność]]></item>
 		<item name="wcf.user.membersList.registrationDate"><![CDATA[Data rejestracji {@$user->registrationDate|date}]]></item>
 		<item name="wcf.user.membersList.location"><![CDATA[z {$user->location}]]></item>
 		<item name="wcf.user.myProfile"><![CDATA[Mój profil]]></item>
