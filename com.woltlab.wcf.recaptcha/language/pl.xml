@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_system_recaptcha"><![CDATA[Verification (“reCAPTCHA”)]]></item>
+		<item name="wcf.acp.option.module_system_recaptcha.description"><![CDATA[Enables security measures to prevent automatic form submission for bots.]]></item>
+		<item name="wcf.acp.option.category.security.antispam.recaptcha"><![CDATA[reCAPTCHA]]></item>
+		<item name="wcf.acp.option.recaptcha_publickey"><![CDATA[Public API Key]]></item>
+		<item name="wcf.acp.option.recaptcha_publickey.description"><![CDATA[You can request an own API-Key for using reCAPTCHA on the <a href="https://www.google.com/recaptcha/admin/create" class="externalURL">reCAPTCHA website</a>.]]></item>
+		<item name="wcf.acp.option.recaptcha_privatekey"><![CDATA[Private API Key]]></item>
+	</category>
+	
 	<category name="wcf.recaptcha">
 		<item name="wcf.recaptcha.title"><![CDATA[Weryfikacja (reCAPTCHA)]]></item>
 		<item name="wcf.recaptcha.description"><![CDATA[Proszę przepisać tekst pokazany na obrazku poniżej (bez spacji, duże lub małe litery mogą być używane). Jeśli nie możesz zidentyfikować captcha nawet po odświeżeniu strony, to skontaktuj się z administratorem tej strony.]]></item>
+		<item name="wcf.recaptcha.reload"><![CDATA[Odśwież]]></item>
+		<item name="wcf.recaptcha.audio"><![CDATA[Wersja Audio]]></item>
+		<item name="wcf.recaptcha.image"><![CDATA[Wersja ze zdjęciem]]></item>
+		<item name="wcf.recaptcha.help"><![CDATA[Pomoc]]></item>
 		<item name="wcf.recaptcha.error.recaptchaString.false"><![CDATA[Podałeś nieprawidłowy kod. Spróbuj ponownie.]]></item>
 	</category>
 </language>
-<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
+<!-- Copyright © by wbb24.pl 2013 - Wszelkie prawa zastrzeżone
+recaptcha - Polish Language v1.0 -->

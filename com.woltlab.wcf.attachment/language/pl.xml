@@ -57,3 +57,5 @@ Dozwolone rozszerzenia: {', '|implode:$attachmentHandler->getAllowedExtensions()
 		<item name="wcf.attachment.fileType"><![CDATA[Type]]></item>
 	</category>
 </language>
+<!-- Copyright © by wbb24.pl 2013 - Wszelkie prawa zastrzeżone
+Attachment System - Polish Language v1.0 -->
