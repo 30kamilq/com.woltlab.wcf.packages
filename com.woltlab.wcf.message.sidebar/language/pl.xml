@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.message.general.sidebar"><![CDATA[Sidebar]]></item>
-		<item name="wcf.acp.option.category.message.general.sidebar.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.message.sidebar"><![CDATA[Sidebar]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_avatar"><![CDATA[Pokaż awatar]]></item>
-		<item name="wcf.acp.option.message_sidebar_enable_avatar.description"><![CDATA[Po włączeniu tej opcji będzie wyświetlany awatar autora.]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_online_status"><![CDATA[Pokaż status online]]></item>
-		<item name="wcf.acp.option.message_sidebar_enable_online_status.description"><![CDATA[Pokazuj czy użytkownik jest aktualnie aktywny na tej stronie.]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_rank"><![CDATA[Pokaż rangę użytkownika]]></item>
-		<item name="wcf.acp.option.message_sidebar_enable_rank.description"><![CDATA[Zostanie wyświetlana ranga użytkownika.]]></item>
+		<item name="wcf.acp.option.message_sidebar_enable_message_group_starter_icon"><![CDATA[Highlight thread starter]]></item>
+		<item name="wcf.acp.option.message_sidebar_enable_likes_received"><![CDATA[Show author’s likes received]]></item>
+		<item name="wcf.acp.option.message_sidebar_enable_activity_points"><![CDATA[Show author’s activity points]]></item>
+		<item name="wcf.acp.option.message_sidebar_user_options"><![CDATA[Show selected author profile fields]]></item>
+		
 	</category>
 </language>
 <!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
+	

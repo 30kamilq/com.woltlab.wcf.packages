@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.content.tag"><![CDATA[Tagi]]></item>
+		<item name="wcf.acp.group.option.admin.content.tag.canManageTag"><![CDATA[Może zarządzać tagami]]></item>
+	</category>
+
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.tag"><![CDATA[Tagi]]></item>
+		<item name="wcf.acp.menu.link.tag.add"><![CDATA[Dodaj tag]]></item>
+		<item name="wcf.acp.menu.link.tag.list"><![CDATA[Lista tagów]]></item>
+	</category>
+
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.module_tagging"><![CDATA[Tagowanie]]></item>
 		<item name="wcf.acp.option.module_tagging.description"><![CDATA[Aktywuje funkcję tagowania w zawartości.]]></item>
+		<item name="wcf.acp.option.tagging_max_tag_length"><![CDATA[Maksymalna długość tagu]]></item>
 	</category>
-	
-	<category name="wcf.acp.package">
-		<item name="wcf.acp.package.step.install.TaggablePip"><![CDATA[Instalacja tagowania ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.TaggablePip"><![CDATA[Odinstalowywanie tagowania ...]]></item>
-		<item name="wcf.acp.package.step.update.TaggablePip"><![CDATA[Aktualizacja tagowania ...]]></item>
+
+	<category name="wcf.acp.tag">
+		<item name="wcf.acp.tag.add"><![CDATA[Add Tag]]></item>
+		<item name="wcf.acp.tag.edit"><![CDATA[Edit Tag]]></item>
+		<item name="wcf.acp.tag.delete.sure"><![CDATA[Do you really want to delete the tag “{$tag}”?]]></item>
+		<item name="wcf.acp.tag.error.languageID.notFound"><![CDATA[Selected language is invalid]]></item>
+		<item name="wcf.acp.tag.languageID"><![CDATA[Language]]></item>
+		<item name="wcf.acp.tag.list"><![CDATA[List Tags]]></item>
+		<item name="wcf.acp.tag.list.search"><![CDATA[Search Tags]]></item>
+		<item name="wcf.acp.tag.list.search.query"><![CDATA[Search Term]]></item>
+		<item name="wcf.acp.tag.noneAvailable"><![CDATA[No tag have been added yet.]]></item>
+		<item name="wcf.acp.tag.name"><![CDATA[Name]]></item>
+		<item name="wcf.acp.tag.synonyms"><![CDATA[Synonyms]]></item>
+		<item name="wcf.acp.tag.synonymFor"><![CDATA[Synonym for]]></item>
+		<item name="wcf.acp.tag.usageCount"><![CDATA[Usages]]></item>
 	</category>
-	
-	<category name="wcf.help.item">
-		<item name="wcf.help.item.tagging"><![CDATA[Tagi]]></item>
-		<item name="wcf.help.item.tagging.description"><![CDATA[<p class="helpImage border container-4"><img src="{@RELATIVE_WCF_DIR}images/help/helpTagging1.png" alt="" /><span class="smallFont light">Tag cloud</span></p>
-<p>Tagi to słowa, które opisują i/lub kategoryzują elementy, takie jak obrazy czy posty. Potraktujcie to jako swego rodzaju podsumowanie treści. Zaletą jest to, że możesz wyszukiwać zawartość według <a href="index.php?page=TaggedObjects{@SID_ARG_2ND}">tagów</a>, więc nie musisz wymyślać słów kluczowych.<p>]]></item>
-	</category>
-	
+
 	<category name="wcf.tagging">
-		<item name="wcf.tagging.filter"><![CDATA[Sortuj wg tagów{if $tag|isset}: &quot;{$tag}&quot;{/if}]]></item>
-		<item name="wcf.tagging.tags"><![CDATA[Tagi]]></item>
-		<item name="wcf.tagging.tags.add"><![CDATA[Tagi]]></item>
-		<item name="wcf.tagging.tags.add.description"><![CDATA[Możesz oddzielać wiele tagów przecinkami.]]></item>
-		<item name="wcf.tagging.tags.used"><![CDATA[Użyte tagi]]></item>
+		<item name="wcf.tagging.tags"><![CDATA[Tags]]></item>
+		<item name="wcf.tagging.tags.add"><![CDATA[Tags]]></item>
+		<item name="wcf.tagging.tags.description"><![CDATA[Add multiple tags by separating them with a comma.]]></item>
+		<item name="wcf.tagging.objectTypes"><![CDATA[Content]]></item>
+		<item name="wcf.tagging.taggedObjects.noResults"><![CDATA[No items matched this tag.]]></item>
 	</category>
 </language>
-<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->

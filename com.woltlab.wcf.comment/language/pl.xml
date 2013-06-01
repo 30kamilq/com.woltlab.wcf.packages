@@ -1,26 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profileComment"><![CDATA[User Profile Wall]]></item>
+		<item name="wcf.acp.group.option.user.profileComment.canAddComment"><![CDATA[Can create comments]]></item>
+		<item name="wcf.acp.group.option.user.profileComment.canEditComment"><![CDATA[Cam edit own comments]]></item>
+		<item name="wcf.acp.group.option.user.profileComment.canDeleteComment"><![CDATA[Cam delete own comments]]></item>
+		<item name="wcf.acp.group.option.mod.profileComment.canEditComment"><![CDATA[Cam edit comments]]></item>
+		<item name="wcf.acp.group.option.mod.profileComment.canDeleteComment"><![CDATA[Can delete comments]]></item>
+		<item name="wcf.acp.group.option.mod.profileComment.canModerateComment"><![CDATA[Can moderate comments]]></item>
+		<item name="wcf.acp.group.option.category.mod.profileComment"><![CDATA[User Profile Wall]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_user_profile_wall"><![CDATA[User Profile Wall]]></item>
+	</category>
+	
 	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.content.wall.comment"><![CDATA[Wall Comment]]></item>
+		<item name="wcf.user.profile.content.wall.commentResponse"><![CDATA[Reply to wall comment]]></item>
+		<item name="wcf.user.profile.content.wall.noEntries"><![CDATA[There are no comments yet.]]></item>
 		<item name="wcf.user.profile.menu.wall"><![CDATA[Tablica]]></item>
 		<item name="wcf.user.profile.recentActivity.profileComment"><![CDATA[Napisał komentarz na tablicy <a href="{link controller='User' object=$user}{/link}#wcf_user_profile_menu_comment">{$user->username}'a</a>.]]></item>
 		<item name="wcf.user.profile.recentActivity.profileCommentResponse"><![CDATA[Dodał odpowiedź do komentarza <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}'a</a> na tablicy <a href="{link controller='User' object=$user}{/link}#wcf_user_profile_menu_comment">{$user->username}'a</a>.]]></item>
 	</category>
 
 	<category name="wcf.comment">
-		<item name="wcf.comment.response.previous"><![CDATA[Pokaż poprzednie odpowiedzi]]></item>
-		<item name="wcf.comment.response.recent"><![CDATA[Pokaż nowe odpowiedzi]]></item>
 		<item name="wcf.comment.add"><![CDATA[Napisz komentarz …]]></item>
+		<item name="wcf.comment.delete.confirmMessage"><![CDATA[Czy na pewno chcesz usunąć ten komentarz?]]></item>
 		<item name="wcf.comment.description"><![CDATA[Wciśnij Enter aby zapisać lub Esc aby anulować.]]></item>
-		<item name="wcf.comment.response.add"><![CDATA[Napisz odpowiedź …]]></item>	
+		<item name="wcf.comment.more"><![CDATA[Więcej komentarzy]]></item>
+		<item name="wcf.comment.response.add"><![CDATA[Dodaj odpowiedź …]]></item>	
+		<item name="wcf.comment.response.more"><![CDATA[Więcej komentarzy]]></item>
+		<item name="wcf.comment.button.response.add"><![CDATA[Odpowiedz]]></item>
+	</category>
+	
+	<category name="wcf.like">
+		<item name="wcf.like.objectType.com.woltlab.wcf.comment"><![CDATA[Comment]]></item>
+		<item name="wcf.like.objectType.com.woltlab.wcf.comment.response"><![CDATA[Comment Reply]]></item>
+	</category>
+	
+		<category name="wcf.user.notification">
+		<item name="wcf.user.notification.comment.title"><![CDATA[New Comment (Wall)]]></item>
+		<item name="wcf.user.notification.comment.message"><![CDATA[Wrote a comment on your wall.]]></item>
+		<item name="wcf.user.notification.comment.mail"><![CDATA[{@$author->username} wrote a comment on your wall:
+{link controller='User' object=$owner encode=false forceFrontend=true}#wall{/link}]]></item>
+		<item name="wcf.user.notification.commentResponse.title"><![CDATA[New Reply (Wall)]]></item>
+		<item name="wcf.user.notification.commentResponse.message"><![CDATA[Wrote a reply to your comment on {$owner->username}’s wall.]]></item>
+		<item name="wcf.user.notification.commentResponse.mail"><![CDATA[{@$author->username} wrote a reply to your comment on {@$owner->username}’s wall:
+{link controller='User' object=$owner encode=false forceFrontend=true}{/link}#wall]]></item>
+		<item name="wcf.user.notification.commentResponseOwner.title"><![CDATA[New Reply (Wall)]]></item>
+		<item name="wcf.user.notification.commentResponseOwner.message"><![CDATA[Wrote a reply to {$commentAuthor->username}’s comment on your wall.]]></item>
+		<item name="wcf.user.notification.commentResponseOwner.mail"><![CDATA[{@$author->username} wrote a reply to {@$commentAuthor->username}’s comment on your wall:
+{link controller='User' object=$owner encode=false forceFrontend=true}{/link}#wall]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.notification.comment"><![CDATA[New comment on your wall]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponse"><![CDATA[New reply to a comment on your wall]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponseOwner"><![CDATA[New reply to one of your comments]]></item>
 	</category>
 
-	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.comment.output"><![CDATA[Napisano nowy komentarz na <a href="{link controller='User' object=$__wcf->getUser()}#wall{/link}">twojej tablicy</a>.]]></item>
-		<item name="wcf.user.notification.comment.shortOutput"><![CDATA[Nowy komentarz (tablica)]]></item>
-		<item name="wcf.user.notification.commentResponse.output"><![CDATA[Odpowiedziano na twój komentarz na tablicy <a href="{link controller='User' object=$owner}#wall{/link}">{$owner->username}'a</a>.]]></item>
-		<item name="wcf.user.notification.commentResponse.shortOutput"><![CDATA[Nowa odpowiedź (tablica)]]></item>
-		<item name="wcf.user.notification.commentResponseOwner.output"><![CDATA[{$commentAuthor->username} dodał odpowiedź do komentarza a <a href="{link controller='User' object=$__wcf->getUser()}#wall{/link}">twojej tablicy</a>.]]></item>
-		<item name="wcf.user.notification.commentResponseOwner.shortOutput"><![CDATA[Nowa odpowiedź (tablica)]]></item>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.canWriteProfileComments"><![CDATA[Can Write Comments on My Wall]]></item>
+	</category>
+
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.woltlab.wcf.user.profileComment.recentActivityEvent"><![CDATA[Wall Comment]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wcf.user.profileComment.response.recentActivityEvent"><![CDATA[Wall Reply]]></item>
 	</category>
 </language>
-<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
+<!-- Copyright © by wbb24.pl 2013 - Wszelkie prawa zastrzeżone
+Comment System - Polish Language v1.0 -->
