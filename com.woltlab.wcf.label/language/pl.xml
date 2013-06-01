@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
+	<category name="wcf.acl.option">
+		<item name="wcf.acl.option.com.woltlab.wcf.label.canViewLabel"><![CDATA[Widzi etykiety]]></item>
+		<item name="wcf.acl.option.com.woltlab.wcf.label.canSetLabel"><![CDATA[Może ustawiać etykiety]]></item>
+	</category>
+	
 	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.admin.content.label.canAddLabel"><![CDATA[Można dodać nowe etykiety]]></item>
-		<item name="wcf.acp.group.option.admin.content.label.canAddLabelGroup"><![CDATA[Może dodawać nowe grupy etykiet]]></item>
-		<item name="wcf.acp.group.option.admin.content.label.canDeleteLabel"><![CDATA[Może usuwać etykiety]]></item>
-		<item name="wcf.acp.group.option.admin.content.label.canDeleteLabelGroup"><![CDATA[Może usuwać grupy etykiet]]></item>
-		<item name="wcf.acp.group.option.admin.content.label.canEditLabel"><![CDATA[Może edytować eykiety]]></item>
-		<item name="wcf.acp.group.option.admin.content.label.canEditLabelGroup"><![CDATA[Może edytować grupy etykiet]]></item>
+		<item name="wcf.acp.group.option.admin.content.label.canManageLabel"><![CDATA[Może zarządzać etykietami]]></item>
 		<item name="wcf.acp.group.option.category.admin.content.label"><![CDATA[Etykiety]]></item>
 	</category>
 
@@ -25,14 +25,27 @@
 		<item name="wcf.acp.label.label"><![CDATA[Etykieta]]></item>
 		<item name="wcf.acp.label.list"><![CDATA[Etykiety]]></item>
 		<item name="wcf.acp.label.noneAvailable"><![CDATA[Obecnie nie została dodana żadna etykieta.]]></item>
+		<item name="wcf.acp.label.group.forceSelection"><![CDATA[Wybór etykiety]]></item>
+		<item name="wcf.acp.label.group.delete.sure"><![CDATA[Czy na pewno chcesz usunąć grupę etykiet “{$group->groupName}”?]]></item>
+		<item name="wcf.acp.label.group.category.connect"><![CDATA[Dostępność]]></item>
+		<item name="wcf.acp.label.delete.sure"><![CDATA[Czy na pewno chcesz usunąć grupę “{$label}”?]]></item>
 	</category>
 
 	<category name="wcf.acp.menu">
 		<item name="wcf.acp.menu.link.label"><![CDATA[Etykiety]]></item>
 		<item name="wcf.acp.menu.link.label.list"><![CDATA[Lista etykiet]]></item>
 		<item name="wcf.acp.menu.link.label.add"><![CDATA[Dodaj etykietę]]></item>
-		<item name="wcf.acp.menu.link.label.group.list"><![CDATA[Lista grup etykiet]]></item>
-		<item name="wcf.acp.menu.link.label.group.add"><![CDATA[Dodaj grupę etykiety]]></item>
+		<item name="wcf.acp.menu.link.label.group.list"><![CDATA[Lista grup]]></item>
+		<item name="wcf.acp.menu.link.label.group.add"><![CDATA[Dodaj nową grupę]]></item>
+	</category>
+	
+	<category name="wcf.label">
+		<item name="wcf.label.all"><![CDATA[Wszystkie]]></item>
+		<item name="wcf.label.label"><![CDATA[Etykieta]]></item>
+		<item name="wcf.label.labels"><![CDATA[Etykiety]]></item>
+		<item name="wcf.label.none"><![CDATA[Nie wybrano]]></item>
+		<item name="wcf.label.withoutSelection"><![CDATA[Bez etykiety]]></item>
 	</category>
 </language>
-<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
+<!-- Copyright © by wbb24.pl 2013 - Wszelkie prawa zastrzeżone
+Label System - Polish Language v1.0 -->
