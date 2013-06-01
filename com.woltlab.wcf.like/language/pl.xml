@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
-	<category name="wcf.like">
-		<item name="wcf.like.cumulativeLikes"><![CDATA[Podziękowania]]></item>
-		<item name="wcf.like.tooltip"><![CDATA[{if $likes}{#$likes} Lubianych{if $dislikes}, {/if}{/if}{if $dislikes}{#$dislikes} Nielubianych{/if}]]></item>
-		<item name="wcf.like.jsTooltip"><![CDATA[($likes > 0 ? ($likes + " Lubianych" + ($dislikes > 0 ? ", " : "")) : "") + ($dislikes > 0 ? ($dislikes + " Nielubianych") : "")]]></item>
-		<item name="wcf.like.button.like"><![CDATA[Lubię to]]></item>
-		<item name="wcf.like.button.dislike"><![CDATA[Nie lubię tego]]></item>
-		<item name="wcf.like.likesReceived"><![CDATA[Otrzymanych podziękowań]]></item>
-		<item name="wcf.like.summary"><![CDATA[$userArray.join(", ") + ($others > 0 ? (" i " + $others + " innych") : "") + " podziękowało."]]></item>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.like"><![CDATA[System podziękowań]]></item>
+		<item name="wcf.acp.group.option.user.like.canViewLike"><![CDATA[Widzi podziękowania]]></item>
+		<item name="wcf.acp.group.option.user.like.canLike"><![CDATA[Może używać systemu podziękowań]]></item>
 	</category>
 
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_like"><![CDATA[Aktywuj system podziękowań]]></item>
+		<item name="wcf.acp.option.category.message.general.likes"><![CDATA[System podziękowań]]></item>
+		<item name="wcf.acp.option.module_like"><![CDATA[System podziękowań]]></item>
+		<item name="wcf.acp.option.like_allow_for_own_content"><![CDATA[Użytkownicy mogą wystawiać podziękowania za swoją treść]]></item>
+		<item name="wcf.acp.option.like_enable_dislike"><![CDATA[Użytkownicy mogą nielubieć treści]]></item>
+		<item name="wcf.acp.option.like_show_summary"><![CDATA[Pokazuj tylko kilka pierwszych podziękowań]]></item>
 	</category>
+
+	<category name="wcf.dashboard">
+		<item name="wcf.dashboard.box.com.woltlab.wcf.like.mostLikedMembers"><![CDATA[Najbardziej lubiani użytkownicy]]></item>
+		<item name="wcf.dashboard.box.mostLikedMembers.likes"><![CDATA[{#$likedMember->likesReceived} Podziękowań]]></item>
+	</category>
+
+	<category name="wcf.like">
+		<item name="wcf.like.cumulativeLikes"><![CDATA[Podziękowania]]></item>
+		<item name="wcf.like.tooltip"><![CDATA[{if $likes}{#$likes} Podziękowań{if $dislikes}, {/if}{/if}{if $dislikes}{#$dislikes} Nielubianych{/if}]]></item>
+		<item name="wcf.like.jsTooltip"><![CDATA[($likes > 0 ? ($likes + " Like" + ($likes != 1 ? "s" : "") + ($dislikes > 0 ? ", " : "")) : "") + ($dislikes > 0 ? ($dislikes + " Dislike" + ($dislikes != 1 ? "s" : "")) : "")]]></item>
+		<item name="wcf.like.button.like"><![CDATA[Lubię to]]></item>
+		<item name="wcf.like.button.dislike"><![CDATA[Nie lubię tego]]></item>
+		<item name="wcf.like.likesReceived"><![CDATA[Otrzymane podziękowania]]></item>
+		<item name="wcf.like.summary"><![CDATA[$userArray.join(", ") + ($others > 0 ? (" i " + $others + (" innych" + ($others > 1 ? "s" : ""))) : "") + " lubi" + ($userArray.length == 1 ? "s" : "") +  " to."]]></item>
+		<item name="wcf.like.details"><![CDATA[Szczegóły]]></item>
+		<item name="wcf.like.details.like"><![CDATA[Podziękowań]]></item>
+		<item name="wcf.like.details.dislike"><![CDATA[Nielubianych]]></item>
+	</category>
+
+	<category name="wcf.user">
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.wcf.like.activityPointEvent.receivedLikes"><![CDATA[Otrzymane podziękowania]]></item>
+	</category>
+	
+
 </language>
-<!-- Copyright © by WBB-site.pl 2012 - Wszelkie prawa zastrzeżone -->
+<!-- 
+com.woltlab.wcf.like - Polish Version v1.0
+Copyright © by WBB-site.pl 2013 - Wszelkie prawa zastrzeżone -->
