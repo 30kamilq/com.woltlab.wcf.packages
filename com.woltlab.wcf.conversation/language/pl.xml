@@ -2,30 +2,30 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="pl">
 	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.conversation"><![CDATA[Skrzynka odbiorcza]]></item>
-		<item name="wcf.acp.group.option.mod.conversation.canModerateConversation"><![CDATA[Can moderate conversations]]></item>
-		<item name="wcf.acp.group.option.user.conversation.canUseConversation"><![CDATA[Can use conversations]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxParticipants"><![CDATA[Maximum Participants]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxParticipants.description"><![CDATA[Maximum number of participants per conversation]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxConversations"><![CDATA[Maximum Conversations]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxConversations.description"><![CDATA[Maximum number of active conversations per user]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxLabels"><![CDATA[Maximum Labels]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxLength"><![CDATA[Maximum Message Length]]></item>
-		<item name="wcf.acp.group.option.user.conversation.canUploadAttachment"><![CDATA[Can upload attachments]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxAttachmentSize"><![CDATA[Maximum File Size]]></item>
-		<item name="wcf.acp.group.option.user.conversation.allowedAttachmentExtensions"><![CDATA[Allowed File Extensions]]></item>
-		<item name="wcf.acp.group.option.user.conversation.allowedAttachmentExtensions.description"><![CDATA[One extension per line]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxAttachmentCount"><![CDATA[Maximum Attachments per Message]]></item>
+		<item name="wcf.acp.group.option.mod.conversation.canModerateConversation"><![CDATA[Może moderować rozmowy]]></item>
+		<item name="wcf.acp.group.option.user.conversation.canUseConversation"><![CDATA[Może używać systemu prywatnych wiadomości]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxParticipants"><![CDATA[Maksymalna liczba uczestników]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxParticipants.description"><![CDATA[Maksymalna liczba uczestników na rozmowę]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxConversations"><![CDATA[Maksymalna liczba prywatnych wiadomości]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxConversations.description"><![CDATA[Maksymalna liczba prywatnych wiadomości na użytkownika]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxLabels"><![CDATA[Maksymalna ilość etykiet]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxLength"><![CDATA[Maksymalna długość wiadomości]]></item>
+		<item name="wcf.acp.group.option.user.conversation.canUploadAttachment"><![CDATA[Może dodawać załączniki]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxAttachmentSize"><![CDATA[Maksymalny rozmiar pliku]]></item>
+		<item name="wcf.acp.group.option.user.conversation.allowedAttachmentExtensions"><![CDATA[Dozwolone rozszerzenia]]></item>
+		<item name="wcf.acp.group.option.user.conversation.allowedAttachmentExtensions.description"><![CDATA[Jedno rozszerzenie na linie]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxAttachmentCount"><![CDATA[Maksymalna ilość załączników na wiadomość]]></item>
 	</category>
 
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.message.conversation"><![CDATA[Skrzynka odbiorcza]]></item>
-		<item name="wcf.acp.option.conversation_list_default_sort_field"><![CDATA[Sort Field]]></item>
-		<item name="wcf.acp.option.conversation_list_default_sort_order"><![CDATA[Sort Order]]></item>
+		<item name="wcf.acp.option.conversation_list_default_sort_field"><![CDATA[Sortuj pole]]></item>
+		<item name="wcf.acp.option.conversation_list_default_sort_order"><![CDATA[Sortuj według]]></item>
 		<item name="wcf.acp.option.conversation_messages_per_page"><![CDATA[Wiadomości na stronę]]></item>
-		<item name="wcf.acp.option.conversations_per_page"><![CDATA[Conversations Per Page]]></item>
-		<item name="wcf.acp.option.module_conversation"><![CDATA[Conversations]]></item>
-		<item name="wcf.acp.option.conversation_reply_show_messages_max"><![CDATA[Previous Messages]]></item>
-		<item name="wcf.acp.option.conversation_reply_show_messages_max.description"><![CDATA[Number of previous messages displayed on extended reply form.]]></item>
+		<item name="wcf.acp.option.conversations_per_page"><![CDATA[Wiadomości na stronę]]></item>
+		<item name="wcf.acp.option.module_conversation"><![CDATA[Skrzynka odbiorcza]]></item>
+		<item name="wcf.acp.option.conversation_reply_show_messages_max"><![CDATA[Poprzednie wiadomości]]></item>
+		<item name="wcf.acp.option.conversation_reply_show_messages_max.description"><![CDATA[Liczba poprzednich wiadomości wyświetlana w oknie rozmów]]></item>
 	</category>
 	
 	<category name="wcf.clipboard">
@@ -35,41 +35,41 @@
 		<item name="wcf.clipboard.item.com.woltlab.wcf.conversation.conversation.leavePermanently"><![CDATA[Opuść ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wcf.conversation.conversation.open"><![CDATA[Otwórz ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wcf.conversation.conversation.restore"><![CDATA[Oznaczone jako aktywne ({#$count})]]></item>
-		<item name="wcf.clipboard.label.com.woltlab.wcf.conversation.conversation.marked"><![CDATA[Zaznaczono {#$count} konwersacji]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wcf.conversation.conversation.marked"><![CDATA[Zaznaczono {#$count} wiadomości]]></item>
 	</category>
 
 	<category name="wcf.conversation">
-		<item name="wcf.conversation.conversations"><![CDATA[Konwersacje]]></item>
+		<item name="wcf.conversation.conversations"><![CDATA[Skrzynka odbiorcza]]></item>
 		<item name="wcf.conversation.subject"><![CDATA[Temat]]></item>
 		<item name="wcf.conversation.replies"><![CDATA[Odpowiedzi]]></item>
-		<item name="wcf.conversation.participants"><![CDATA[Uczestnicy]]></item>
+		<item name="wcf.conversation.participants"><![CDATA[Odbiorcy]]></item>
 		<item name="wcf.conversation.lastPostTime"><![CDATA[Ostatnia odpowiedź]]></item>
 		<item name="wcf.conversation.message.new"><![CDATA[Nowa]]></item>
-		<item name="wcf.conversation.add"><![CDATA[Stwórz nową konwersację]]></item>
-		<item name="wcf.conversation.button.add"><![CDATA[Nowa konwersacja]]></item>
-		<item name="wcf.conversation.message.add"><![CDATA[Dodaj odpowiedź do konwersacji]]></item>
+		<item name="wcf.conversation.add"><![CDATA[Stwórz nową wiadomość]]></item>
+		<item name="wcf.conversation.button.add"><![CDATA[Nowa wiadomość]]></item>
+		<item name="wcf.conversation.message.add"><![CDATA[Dodaj odpowiedź do wiadomości]]></item>
 		<item name="wcf.conversation.message.button.add"><![CDATA[Odpowiedz]]></item>
 		<item name="wcf.conversation.folders"><![CDATA[Folder]]></item>
-		<item name="wcf.conversation.folder.draft"><![CDATA[Drafts]]></item>
+		<item name="wcf.conversation.folder.draft"><![CDATA[Szablony]]></item>
 		<item name="wcf.conversation.folder.outbox"><![CDATA[Wyślij elementy]]></item>
-		<item name="wcf.conversation.folder.hidden"><![CDATA[Ukryty]]></item>
-		<item name="wcf.conversation.quota"><![CDATA[Quota]]></item>
-		<item name="wcf.conversation.noConversations"><![CDATA[Obecnie nie ma żadnych konwersacji.]]></item>
+		<item name="wcf.conversation.folder.hidden"><![CDATA[Ukryte rozmowy]]></item>
+		<item name="wcf.conversation.quota"><![CDATA[Wykorzystanie pojemności]]></item>
+		<item name="wcf.conversation.noConversations"><![CDATA[Obecnie nie ma żadnych wiadomości.]]></item>
 		<item name="wcf.conversation.hideConversation"><![CDATA[Zmień uczestnika]]></item>
-		<item name="wcf.conversation.hideConversation.leave"><![CDATA[Ukryj konwersację]]></item>
-		<item name="wcf.conversation.hideConversation.leave.description"><![CDATA[Konwersacja zostanie ukryte dopóki jeden z uczestników nie napisze nowej odpowiedzi.]]></item>
-		<item name="wcf.conversation.hideConversation.leavePermanently"><![CDATA[Opuść konwersację]]></item>
-		<item name="wcf.conversation.hideConversation.leavePermanently.description"><![CDATA[Całkowicie opuścisz konwersację.]]></item>
-		<item name="wcf.conversation.hideConversation.restore"><![CDATA[Przywróć konwersację]]></item>
+		<item name="wcf.conversation.hideConversation.leave"><![CDATA[Ukryj rozmowę]]></item>
+		<item name="wcf.conversation.hideConversation.leave.description"><![CDATA[Rozmowa zostanie ukryte dotąd, gdy jeden z uczestników nie napisze nowej odpowiedzi.]]></item>
+		<item name="wcf.conversation.hideConversation.leavePermanently"><![CDATA[Opuść rozmowę]]></item>
+		<item name="wcf.conversation.hideConversation.leavePermanently.description"><![CDATA[Całkowicie opuścisz rozmowę.]]></item>
+		<item name="wcf.conversation.hideConversation.restore"><![CDATA[Przywróć rozmowę]]></item>
 		<item name="wcf.conversation.leave.title"><![CDATA[Zmień uczestnika]]></item>
 		<item name="wcf.conversation.information"><![CDATA[Informacje]]></item>
 		<item name="wcf.conversation.message"><![CDATA[Wiadomość]]></item>
-		<item name="wcf.conversation.invisibleParticipants"><![CDATA[Ukryci uczestnicy]]></item>
-		<item name="wcf.conversation.participants.description"><![CDATA[Oddzielaj nazwy przecinkami.]]></item>
+		<item name="wcf.conversation.invisibleParticipants"><![CDATA[Ukryci odbiorcy]]></item>
+		<item name="wcf.conversation.participants.description"><![CDATA[Nazwy oddzielaj przecinkami.]]></item>
 		<item name="wcf.conversation.button.saveAsDraft"><![CDATA[Zapisz jako wersję roboczą]]></item>
 		<item name="wcf.conversation.message.add.previousPosts"><![CDATA[Prywatne wiadomości: ({#$items})}]]></item>
-		<item name="wcf.conversation.invisibleParticipants.description"><![CDATA[Ukryci uczestnicy nie są widoczne dla innych uczestników rozmowy. Oddzielaj nazwy przecinkami.]]></item>
-		<item name="wcf.conversation.showAll"><![CDATA[Pokaż wszystkie konwersacje]]></item>
+		<item name="wcf.conversation.invisibleParticipants.description"><![CDATA[Ukryci odbiorcy nie są widoczni dla innych uczestników rozmowy. Nazwy oddzielaj przecinkami.]]></item>
+		<item name="wcf.conversation.showAll"><![CDATA[Pokaż wszystkie rozmowy]]></item>
 		<item name="wcf.conversation.lastVisitTime"><![CDATA[Ostatnia wizyta]]></item>
 	</category>
 
@@ -97,10 +97,11 @@
 	</category>
 
 	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.conversation.output"><![CDATA[Rozpoczął konwersację &ldquo;<a href="{link controller='Conversation' object=$conversation}{/link}">{$conversation->subject}</a>&rdquo;.]]></item>
-		<item name="wcf.user.notification.conversation.shortOutput"><![CDATA[Nowa konwersacja]]></item>
-		<item name="wcf.user.notification.conversation.message.output"><![CDATA[Odpowiedział na konwersację &ldquo;<a href="{link controller='Conversation' object=$message->getConversation()}messageID={@$message->messageID}{/link}#message{@$message->messageID}">{$message->getTitle()}</a>&rdquo;.]]></item>
-		<item name="wcf.user.notification.conversation.message.shortOutput"><![CDATA[Nowa odpowiedź do konwersacji]]></item>		
+		<item name="wcf.user.notification.conversation.output"><![CDATA[Rozpoczął rozmowę &ldquo;<a href="{link controller='Conversation' object=$conversation}{/link}">{$conversation->subject}</a>&rdquo;.]]></item>
+		<item name="wcf.user.notification.conversation.shortOutput"><![CDATA[Nowa rozmowa]]></item>
+		<item name="wcf.user.notification.conversation.message.output"><![CDATA[Odpowiedział na rozmowę &ldquo;<a href="{link controller='Conversation' object=$message->getConversation()}messageID={@$message->messageID}{/link}#message{@$message->messageID}">{$message->getTitle()}</a>&rdquo;.]]></item>
+		<item name="wcf.user.notification.conversation.message.shortOutput"><![CDATA[Nowa odpowiedź do rozmowy]]></item>		
 	</category>
 </language>
-<!-- Copyright © by WBB-site.pl 2013 - Wszelkie prawa zastrzeżone -->
+<!-- Copyright © by wbb24.pl 2012-2013 - Wszelkie prawa zastrzeżone
+Conversation - Polish Language v1.0 -->
