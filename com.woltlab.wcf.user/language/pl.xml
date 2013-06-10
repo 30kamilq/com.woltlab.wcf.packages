@@ -587,21 +587,21 @@ If you do not want to receive further email notifications for this event, you ca
 	</category>
 
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile"><![CDATA[User Profile of “{$user->username}”]]></item>
-		<item name="wcf.user.profile.content.about.noPublicData"><![CDATA[{if $userID == $__wcf->getUser()->userID}You did not provide any details yet.{else}There are no details visible to you.{/if}]]></item>
-		<item name="wcf.user.profile.content.recentActivity.noEntries"><![CDATA[There are no recent activities available yet.]]></item>
-		<item name="wcf.user.profile.followers"><![CDATA[{$user->username}’s Follower]]></item>
-		<item name="wcf.user.profile.userList.showAll"><![CDATA[Show All]]></item>
-		<item name="wcf.user.profile.following"><![CDATA[{$user->username} Follows]]></item>
-		<item name="wcf.user.profile.menu.about"><![CDATA[About Me]]></item>
-		<item name="wcf.user.profile.menu.recentActivity"><![CDATA[Recent Activity]]></item>
-		<item name="wcf.user.profile.oldUsername"><![CDATA[Used to be called “{$user->getOldUsername()}”]]></item>
-		<item name="wcf.user.profile.recentActivity.follow"><![CDATA[Now follows <a href="{link controller='User' object=$user}{/link}">{$user->username}</a>.]]></item>
-		<item name="wcf.user.profile.visitors"><![CDATA[Profile Visitors]]></item>
+		<item name="wcf.user.profile"><![CDATA[Profil “{$user->username}'a”]]></item>
+		<item name="wcf.user.profile.content.about.noPublicData"><![CDATA[{if $userID == $__wcf->getUser()->userID}Obecnie nie podałeś żadnych szczegół.{else}Obecnie nie ma dostępnych szczegół widocznych dla ciebie.{/if}]]></item>
+		<item name="wcf.user.profile.content.recentActivity.noEntries"><![CDATA[Obecnie nie ma żadnych działań.]]></item>
+		<item name="wcf.user.profile.followers"><![CDATA[Obserwujący {$user->username}’a]]></item>
+		<item name="wcf.user.profile.userList.showAll"><![CDATA[Pokaż wszystkich]]></item>
+		<item name="wcf.user.profile.following"><![CDATA[{$user->username} obserwuje]]></item>
+		<item name="wcf.user.profile.menu.about"><![CDATA[O mnie]]></item>
+		<item name="wcf.user.profile.menu.recentActivity"><![CDATA[Ostatnia aktywność]]></item>
+		<item name="wcf.user.profile.oldUsername"><![CDATA[Wcześniejsza nazwa “{$user->getOldUsername()}”]]></item>
+		<item name="wcf.user.profile.recentActivity.follow"><![CDATA[Teraz obserwujesz <a href="{link controller='User' object=$user}{/link}">{$user->username}</a>.]]></item>
+		<item name="wcf.user.profile.visitors"><![CDATA[Odwiedzający]]></item>
 	</category>
 
 	<category name="wcf.user.objectWatch">
-		<item name="wcf.user.objectWatch.manageSubscription"><![CDATA[Manage Subscription]]></item>
+		<item name="wcf.user.objectWatch.manageSubscription"><![CDATA[Zarządzaj subskrypcją]]></item>
 	</category>
 
 	<category name="wcf.user.option">
@@ -645,32 +645,32 @@ If you do not want to receive further email notifications for this event, you ca
 	</category>
 
 	<category name="wcf.user.mail">
-		<item name="wcf.user.mail.information"><![CDATA[Details]]></item>
-		<item name="wcf.user.mail.mail"><![CDATA[Dear {@$recipient->username},
+		<item name="wcf.user.mail.information"><![CDATA[Szczegóły]]></item>
+		<item name="wcf.user.mail.mail"><![CDATA[Witaj {@$recipient->username},
 
-"{@$username}" sent you a message on "{@PAGE_TITLE|language}":
+"{@$username}" wysłał do ciebie wiadomość na stronie "{@PAGE_TITLE|language}":
 {@$message}]]></item>
-		<item name="wcf.user.mail.mail.subject"><![CDATA[Message From {@$username}: {@$subject}]]></item>
-		<item name="wcf.user.mail.message"><![CDATA[Message]]></item>
-		<item name="wcf.user.mail.senderEmail"><![CDATA[Your email address]]></item>
-		<item name="wcf.user.mail.sent"><![CDATA[Message has been sent to “{$user->username}”.]]></item>
-		<item name="wcf.user.mail.showAddress"><![CDATA[Use my email address as sender address, the recipient can directly reply to me.]]></item>
-		<item name="wcf.user.mail.subject"><![CDATA[Subject]]></item>
-		<item name="wcf.user.mail.title"><![CDATA[Send an email to “{$user->username}”]]></item>
+		<item name="wcf.user.mail.mail.subject"><![CDATA[Wiadomość od {@$username}: {@$subject}]]></item>
+		<item name="wcf.user.mail.message"><![CDATA[Wiadomość]]></item>
+		<item name="wcf.user.mail.senderEmail"><![CDATA[Twój adres email]]></item>
+		<item name="wcf.user.mail.sent"><![CDATA[Wiadomość została wysłana do “{$user->username}”.]]></item>
+		<item name="wcf.user.mail.showAddress"><![CDATA[Użyj mojego adresu e-mail jako adresu nadawcy, odbiorca będzie mógł bezpośrednio odpowiedzieć na twój adres.]]></item>
+		<item name="wcf.user.mail.subject"><![CDATA[Temat]]></item>
+		<item name="wcf.user.mail.title"><![CDATA[Wyślij wiadomość do “{$user->username}”]]></item>
 	</category>
 
 	<category name="wcf.user.rank">
 		<item name="wcf.user.rank.administrator"><![CDATA[Administrator]]></item>
 		<item name="wcf.user.rank.moderator"><![CDATA[Moderator]]></item>
-		<item name="wcf.user.rank.superModerator"><![CDATA[Super-Moderator]]></item>
+		<item name="wcf.user.rank.superModerator"><![CDATA[Super moderator]]></item>
 
 		<!-- TODO: These rank translations are bullshit, find something better -->
 
-		<item name="wcf.user.rank.user0"><![CDATA[Beginner]]></item>
+		<item name="wcf.user.rank.user0"><![CDATA[Początkujący]]></item>
 		<item name="wcf.user.rank.user1"><![CDATA[Student]]></item>
-		<item name="wcf.user.rank.user2"><![CDATA[Intermediate]]></item>
-		<item name="wcf.user.rank.user3"><![CDATA[Professional]]></item>
-		<item name="wcf.user.rank.user4"><![CDATA[Master]]></item>
+		<item name="wcf.user.rank.user2"><![CDATA[Przejściowy]]></item>
+		<item name="wcf.user.rank.user3"><![CDATA[Profesionalista]]></item>
+		<item name="wcf.user.rank.user4"><![CDATA[Mistrz]]></item>
 		<item name="wcf.user.rank.user5"><![CDATA[Enlightened]]></item>
 	</category>
 	
@@ -681,8 +681,8 @@ If you do not want to receive further email notifications for this event, you ca
 	</category>
 
 	<category name="wcf.user">
-		<item name="wcf.user.access.everyone"><![CDATA[Wszystkich]]></item>
-		<item name="wcf.user.access.following"><![CDATA[Użytkowników których obserwuję]]></item>
+		<item name="wcf.user.access.everyone"><![CDATA[Wszyscy]]></item>
+		<item name="wcf.user.access.following"><![CDATA[Użytkownicy których obserwuję]]></item>
 		<item name="wcf.user.access.nobody"><![CDATA[Nikogo]]></item>
 		<item name="wcf.user.access.registered"><![CDATA[Zarejestrowanych użytkowników]]></item>
 		<item name="wcf.user.avatar.alt"><![CDATA[Awatar użytkownika]]></item>

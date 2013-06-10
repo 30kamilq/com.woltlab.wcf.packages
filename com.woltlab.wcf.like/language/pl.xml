@@ -35,8 +35,6 @@
 	<category name="wcf.user">
 		<item name="wcf.user.activityPoint.objectType.com.woltlab.wcf.like.activityPointEvent.receivedLikes"><![CDATA[Otrzymane podziękowania]]></item>
 	</category>
-	
-
 </language>
 <!-- 
 com.woltlab.wcf.like - Polish Version v1.0
